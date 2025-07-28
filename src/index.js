@@ -31,3 +31,8 @@ if ((xpDoHeroi >= 8001) && (xpDoHeroi <= 9000)) {
 if ((xpDoHeroi >= 9001) && (xpDoHeroi <= 10000)) {
   nivelDoHeroi = "Imortal"
 }
+if (xpDoHeroi >= 10001) {
+  nivelDoHeroi = "Radiante"
+}
+
+console.log(`O Herói de nome + (nomeDoHeroi)  está no nível de + (nivelDoHero)`);
